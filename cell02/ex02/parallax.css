@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700&display=swap');
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Sarabun', sans-serif;
+}
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+}
+    .parallax p{
+        color: black;
+        font-size: 20px;
+    }
+.parallax-1 {
+    background-image: url('https://pbs.twimg.com/media/HQ-59lxaIAA7FiN?format=webp&name=medium');
+}
+.parallax-2 {
+    background-image: url('https://static0.srcdn.com/wordpress/wp-content/uploads/2023/03/sakamoto-nagumo-and-akao-from-sakamoto-days.jpg?w=1200&h=675&fit=crop');
+}
+.content {
+    padding: 150px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+      -webkit-text-stroke: 2px black;
+    text-stroke: 2px black;
+}
