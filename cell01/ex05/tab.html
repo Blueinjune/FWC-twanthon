@@ -5,32 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tab</title>
 </head>
+
 <style>
-    section{
-        display: flex;
+    table {
+        width: 100%;
+        border-collapse: collapse;
     }
-    div{
-        flex: 1;
+
+    td {
+        width: 50%;
         border: 1px solid black;
-        padding: 100px 0 100px 0;
+        box-sizing: border-box;
         font-size: 32px;
     }
-        div:nth-child(1){
-            background-color:rgb(189, 50, 0);
-        }
-        div:nth-child(2){
-            background-color:rgb(120, 176, 255);
-        }
+
+    td:nth-child(1) {
+        background-color: rgb(189, 50, 0);
+    }
+
+    td:nth-child(2) {
+        background-color: rgb(120, 176, 255);
+    }
 </style>
+
 <body>
     <hr>
-    <section>
-        <div>
-            oh ho kon thai
-        </div>
-        <div>
-            whatzzzzzz
-        </div>
-    </section>
+
+    <table>
+        <tr>
+            <td>
+                oh ho kon thai
+            </td>
+
+            <td>
+                whatzzzzzz
+            </td>
+        </tr>
+    </table>
+
 </body>
 </html>
